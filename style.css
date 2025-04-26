@@ -1,0 +1,41 @@
+body {
+    background-color: #ad8cd4;
+  }
+.main{
+    background: linear-gradient(145deg, #f0828c, #ab83df);
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    padding : 50px;
+    left : 380px;
+    top: 100px;
+    border: 2px solid rgb(87, 81, 81);
+    border-radius: 15px;
+    box-shadow: 20px 20px 25px gray;
+}
+.sub{
+    position: absolute;
+    justify-content: center;
+    left: 170px;
+    padding: 10px;
+}
+.sub input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.sub button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(143, 223, 163);
+    color: rgb(39, 36, 36);
+}
+.sub button:hover{
+    background-color: rgb(37, 114, 54);
+    color: white;
+}
+.sub p{
+    font-weight: bold;
+    font-size: medium;
+}
+  
